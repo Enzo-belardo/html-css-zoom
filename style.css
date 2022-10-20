@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    padding: 3rem;
+}
+.line{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cam{
+    margin-bottom: 2rem;
+    margin: .5rem .2rem;
+    width: 10vw;
+    width: calc(100%/ 7) -2rem;
+    height: 15vh;
+    border: solid 1px black;
+}
